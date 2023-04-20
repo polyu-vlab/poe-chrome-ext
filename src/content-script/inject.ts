@@ -7,8 +7,8 @@ export const poeInject = () => {
 
   const handleInject = () => {
     console.log("handleInject");
-    // Add the word "World" to the input text
-    inputTextArea.value += " AA";
+    // Word inject
+    inputTextArea.value += " Injected word";
 
     // Dispatch a change event to trigger the HTML event
     inputTextArea.dispatchEvent(new Event("change"));
